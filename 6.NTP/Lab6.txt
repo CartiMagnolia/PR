@@ -1,0 +1,11 @@
+Laborator #6
+Tema: Aplicație de tip client NTP
+
+Obiective
+
+A înțelege cum lucreaza protocolul NTP
+A înțelege cum să obții ora exactă locală
+A înțelege cum să obții ora exactă pentru altă zona geografică
+Descriere
+
+Creați aplicație care va cere de utilizator zona geografică (în format "GMT+X" ori "GMT-X" unde X e o cifra de la 0 pina la 11) și va afișa ora exactă pentru acea zonă

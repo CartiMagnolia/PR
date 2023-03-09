@@ -1,0 +1,11 @@
+Laborator #5
+Tema: Aplicație de tip client Email
+
+Obiective
+
+A înțelege cum se trimite un email
+A înțelege cum ce reprezintă un email
+A înțelege cum să primești un email
+Descriere
+
+Creați aplicație care va putea sa primeasca și să transmită email-uri prin Gmail.

@@ -1,0 +1,15 @@
+Laborator #3
+Tema: Aplicație de tip client DNS
+
+Obiective
+
+A înțelege cum se face găsirea unui ip din denumirea domeniului
+A înțelege cum se face găsirea numelui/numelelor de domeniu din ip
+A înțelege cum să utilizezi alt DNS server în loc de cel setat de sistem
+Descriere
+
+Creați aplicație de consolă care va citi de la tastatură 2 tipuri de comenzi:
+
+1. resolve <domain> sau resolve <ip> care va afișa lista de ip adrese asignate domeniului sau invers lista de domenii asignate la o ip adresa. Se va utiliza DNS server indicat de sistem, pină cînd utilizatorul nu va indica alt DNS server;
+
+2. use dns <ip> - va schimba DNS server care va fi utilizat pentru comenzile din punctul precedent.

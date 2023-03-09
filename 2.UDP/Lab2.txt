@@ -1,0 +1,13 @@
+Laborator #2
+Tema: Aplicație de tip chat utilizând UDP
+
+Obiective
+
+A înțelege cum se crează un socket UDP
+A înțelege cum se trimiț mesaje UDP
+A înțelege cum se primesc mesaje UDP
+A înțelege cum se trimit mesaje multicast
+Descriere
+
+Este nevoie de a crea o aplicație care va lucra ca un chat într-un segment de rețea. Chat-ul va avea un canal general in care se vor primi mesaje multicast si se vor afisa la toți  participanți a chat-ului. De asemenea aplicația va permite să conversezi aparte cu fiecare din participanți, convesația aceasta este privată și nu va fi afișată in canal general.
+

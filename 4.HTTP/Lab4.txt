@@ -1,0 +1,11 @@
+Laborator #4
+Tema: Aplicație de tip client HTTP
+
+Obiective
+
+A înțelege cum se fac http requests
+A înțelege cum se serializeaza obiecte
+A înțelege cum să utilizezi http client
+Descriere
+
+Creați aplicație de consolă care va putea comunica cu aplicație HTTP care prezintă un magazin online.
