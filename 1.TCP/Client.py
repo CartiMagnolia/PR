@@ -30,6 +30,10 @@ receive_thread.start()
 
 while True:
     # citim mesajul de la tastatura
-    message = input("Introduceti mesajul: ")
+    message = input()
     # trimitem mesajul la server
     client_socket.send(message.encode('utf-8'))
+    if message.lower() == "bye":
+        print("Aplicatia s-a inchis.")
+        client_socket.send(message.encode('utf-8'))
+        break

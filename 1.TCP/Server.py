@@ -25,6 +25,13 @@ def handle_client(client_socket, client_address):
         try:
             # primim mesajul de la client
             message = client_socket.recv(1024)
+            # verificam daca clientul doreste sa se deconecteze
+            if message.decode('utf-8') == "bye":
+                print(f"Conexiunea cu {client_address} a fost inchisa de client")
+                # inchidem conexiunea si eliminam clientul din lista
+                clients.remove(client_socket)
+                client_socket.close()
+                break
             # printam mesajul si adresa clientului care l-a trimis
             print(f"{client_address}: {message.decode('utf-8')}")
             # retransmitem mesajul la toti clientii conectati, inclusiv cel care l-a trimis

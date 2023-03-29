@@ -3,11 +3,16 @@ Tema: Aplicație de tip chat utilizând TCP
 
 Obiective
 
-A înțelege cum se crează un socket
-A înțelege cum TCP server începe a asculta conexiuni pe un port
-A înțelege cum se primesc datele prin socket
-A înțelege cum se transmit datele prin socket
-A înțelege cum se pot prelucra mai mulți clienți concomitent
+A înțelege cum se crează un socket: Importam biblioteca si initializam un obiect de tip socket si specificam familia de adrese IP(AF_INET) si titpul de protocol de transport(SOCK_STREAM)
+
+A înțelege cum TCP server începe a asculta conexiuni pe un port: Creeam un socket TCP si il asociem cu acel port. Pentru a asocia folosim functia bind() si dupa asta folosim functia listen() pentru a incepe a asculta conectiuni pe acel port.
+
+A înțelege cum se primesc datele prin socket: In cazul nostru este un server care asteapta conexiuni de la client, acesta trebuie sa accepte o conexiune folosind functia accept() si sa primeasca datele cu functia recv().
+
+A înțelege cum se transmit datele prin socket: Folosim functia send().
+
+A înțelege cum se pot prelucra mai mulți clienți concomitent:
+
 A întelege cum se poate închide conexiunea corect precum din partea client atât și din partea server
 
 Descriere
